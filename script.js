@@ -18,6 +18,7 @@ const getSum = () => {
 	total_price.textContent=sum;
 	new_row.appendChild(total_price)
 	table.appendChild(new_row);  
+	
 };
 
 getSumBtn.addEventListener("click", getSum);
